@@ -4,7 +4,7 @@ const ContactMe: React.FC = () => {
   return (
     <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 bg-gray-200 dark:bg-gray-800 shadow-lg rounded-lg p-2 space-y-3 hidden sm:block">
       <a
-        href="https://www.linkedin.com/in/askhan963/"
+        href="https://www.linkedin.com/in/waseem-tasawar-801b40242/"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
@@ -21,7 +21,7 @@ const ContactMe: React.FC = () => {
         </svg>
       </a>
       <a
-        href="https://github.com/askhan963"
+        href="https://github.com/waseemtasawar"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition"
@@ -38,7 +38,7 @@ const ContactMe: React.FC = () => {
         </svg>
       </a>
       <a
-        href="https://linktr.ee/askhan963"
+        href="https://linktr.ee/waseemtasawar"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center w-12 h-12 bg-green-600 text-white rounded-md hover:bg-green-700 transition"

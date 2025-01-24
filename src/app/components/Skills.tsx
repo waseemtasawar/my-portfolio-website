@@ -3,12 +3,29 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
-  FaReact, FaNodeJs, FaGitAlt, FaDocker, FaJava, FaPython, FaHtml5, FaCss3, FaGithub,
-  FaJsSquare, FaDatabase,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaDocker,
+  FaJava,
+  FaPython,
+  FaHtml5,
+  FaCss3,
+  FaGithub,
+  FaJsSquare,
+  FaDatabase,
 } from "react-icons/fa";
 import {
-  SiMongodb, SiRedux, SiTailwindcss, SiTypescript, SiIntellijidea, SiCsharp,
-  SiMysql, SiFirebase, SiGraphql, SiPostgresql,
+  SiMongodb,
+  SiRedux,
+  SiTailwindcss,
+  SiTypescript,
+  SiIntellijidea,
+  SiCsharp,
+  SiMysql,
+  SiFirebase,
+  SiGraphql,
+  SiPostgresql,
 } from "react-icons/si";
 
 type Category = "Frontend" | "Backend" | "Languages" | "Tools";
@@ -58,22 +75,22 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800 p-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-6"
     >
-      <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 dark:text-gray-100 mb-12">
+      <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 dark:text-gray-100 mb-12 tracking-wide">
         Skills
       </h1>
 
-      <div className="flex w-full max-w-6xl">
+      <div className="flex flex-col md:flex-row w-full max-w-6xl">
         {/* Vertical Category Buttons */}
-        <div className="w-1/4 flex flex-col space-y-4">
+        <div className="md:w-1/4 flex md:flex-col space-y-4 mb-6 md:mb-0">
           {Object.keys(skillCategories).map((category) => (
             <motion.button
               key={category}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => setActiveCategory(category as Category)}
-              className={`text-xs md:text-lg font-medium px-4 py-2 rounded-lg transition-colors text-start shadow-lg ${
+              className={`text-xs md:text-lg font-medium px-4 py-2 rounded-lg shadow-md transition-colors text-start ${
                 activeCategory === category
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300"
@@ -85,21 +102,21 @@ export default function Skills() {
         </div>
 
         {/* Skills Display */}
-        <div className="w-3/4 grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4 p-4">
+        <div className="md:w-3/4 grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4 p-4">
           {skillCategories[activeCategory].map((skill) => (
             <motion.div
               key={skill.name}
-              whileHover={{ scale: 1.1 }}
-              className="flex flex-col items-center p-4 rounded-lg transition-all bg-gray-200 dark:bg-gray-700 shadow-md hover:shadow-xl"
+              whileHover={{ scale: 1.1, rotate: 5 }}
+              className="flex flex-col items-center p-4 rounded-lg bg-gray-200 dark:bg-gray-700 shadow-md transition-all hover:shadow-2xl group"
             >
-              <div className="relative group">
-                {/* Skill Icon */}
+              {/* Skill Icon */}
+              <div className="text-blue-500 dark:text-teal-400 group-hover:animate-bounce">
                 {skill.icon}
-                {/* Skill Name Tooltip */}
-                <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gray-800 text-white text-sm px-2 py-1 rounded-lg -bottom-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap">
-                  {skill.name}
-                </span>
               </div>
+              {/* Skill Name Tooltip */}
+              <p className="mt-3 text-sm font-medium text-gray-800 dark:text-gray-300">
+                {skill.name}
+              </p>
             </motion.div>
           ))}
         </div>

@@ -54,7 +54,7 @@ export default function Honors() {
   return (
     <section id='honors'
       ref={ref}
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800 p-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-6"
     >
       <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 dark:text-gray-100 mb-12">
         Honors & Certifications
