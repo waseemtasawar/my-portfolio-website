@@ -67,55 +67,40 @@ export default function Navbar() {
     <nav
       className={`${
         isVisible ? "translate-y-0" : "-translate-y-full"
-      } fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-800 shadow-md transition-transform duration-300 ease-in-out`}
+      } fixed top-0 left-0 w-full z-50 bg-white dark:bg-gray-800 shadow-lg transition-transform duration-300 ease-in-out`}
     >
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          {/* Logo with Pacifico Font */}
-          <a  href="/">
-            <h1 className="text-3xl font-bold text-gray-800 dark:text-white font-logo">
+          {/* Logo */}
+          <a href="/" className="flex items-center space-x-2">
+            <h1 className="text-3xl font-bold text-gray-800 dark:text-white font-logo tracking-wide transition-transform duration-300 hover:scale-105">
               WASEEM TASAWAR
             </h1>
-          </a >
+          </a>
 
           {/* Hamburger button for mobile */}
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-gray-600 dark:text-gray-300">
+            <button onClick={toggleMenu} className="text-gray-600 dark:text-gray-300 hover:scale-110 transition duration-300">
               {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
             </button>
           </div>
 
           {/* Links for larger screens */}
           <div className="hidden md:flex space-x-8">
-            <a href="#profile" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Profile
-            </a>
-            <a href="#skills" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Skills
-            </a>
-            <a href="#education" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Education
-            </a>
-            <a href="#experience" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Experience
-            </a>
-            <a href="#projects" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Projects
-            </a>
-            <a href="#honors" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Honors
-            </a>
-            <a href="#cv" className="text-gray-600 dark:text-gray-300 hover:underline">
-              My CVs
-            </a>
-            <a href="#contact" className="text-gray-600 dark:text-gray-300 hover:underline">
-              Contact
-            </a>
+            {["Profile", "Skills", "Education", "Experience", "Projects", "Honors", "My CVs", "Contact"].map((link) => (
+              <a
+                key={link}
+                href={`#${link.toLowerCase().replace(" ", "")}`}
+                className="text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition duration-300"
+              >
+                {link}
+              </a>
+            ))}
           </div>
 
           {/* Dark Mode Toggle */}
-          <div className="mr-8 md:mr-0 md:flex items-center space-x-4">
-            <button onClick={toggleDarkMode} className="text-gray-600 dark:text-gray-300">
+          <div className="flex items-center">
+            <button onClick={toggleDarkMode} className="text-gray-600 dark:text-gray-300 hover:scale-110 transition-transform duration-300">
               {darkMode ? <FaSun size={24} /> : <FaMoon size={24} />}
             </button>
           </div>
@@ -127,62 +112,16 @@ export default function Navbar() {
             isMenuOpen ? "block" : "hidden"
           } md:hidden bg-white dark:bg-gray-800 shadow-md`}
         >
-          <a
-            href="#profile"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Profile
-          </a>
-          <a
-            href="#skills"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Skills
-          </a>
-          <a
-            href="#education"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Education
-          </a>
-          <a
-            href="#experience"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Experience
-          </a>
-          <a
-            href="#projects"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Projects
-          </a>
-          <a
-            href="#honors"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Honors
-          </a>
-          <a
-            href="#cv"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            My CVs
-          </a>
-          <a
-            href="#contact"
-            className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:underline"
-            onClick={toggleMenu}
-          >
-            Contact
-          </a>
+          {["Profile", "Skills", "Education", "Experience", "Projects", "Honors", "My CVs", "Contact"].map((link) => (
+            <a
+              key={link}
+              href={`#${link.toLowerCase().replace(" ", "")}`}
+              className="block py-2 px-4 text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 font-medium transition duration-300"
+              onClick={toggleMenu}
+            >
+              {link}
+            </a>
+          ))}
         </div>
       </div>
     </nav>

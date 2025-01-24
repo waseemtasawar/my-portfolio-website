@@ -35,26 +35,26 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 p-6"
+      className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-6"
     >
-      <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-12">
-        Education
+      <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-12 tracking-wide">
+        <span className="underline decoration-teal-400">Education</span>
       </h1>
 
       <div className="space-y-12 max-w-4xl w-full">
         {educationData.map((edu, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-center md:items-start bg-gray-200 dark:bg-gray-800 p-6 rounded-xl shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="relative flex flex-col md:flex-row items-center md:items-start bg-gray-200 dark:bg-gray-800 p-6 rounded-xl shadow-lg border-l-4 border-teal-400 dark:border-teal-600 transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
           >
             {/* Logo Section */}
-            <div className="w-28 h-28 mr-0 md:mr-8 mb-6 md:mb-0 flex-shrink-0 flex items-center justify-center">
+            <div className="w-28 h-28 mr-0 md:mr-8 mb-6 md:mb-0 flex-shrink-0 flex items-center justify-center relative overflow-hidden rounded-full border-2 border-teal-400 dark:border-teal-600 shadow-md">
               <Image
                 src={edu.logo}
                 alt={`${edu.institution} Logo`}
                 width={112}
                 height={112}
-                className="rounded-full shadow-md"
+                className="object-cover"
               />
             </div>
 
@@ -64,14 +64,14 @@ const Education = () => {
                 href={edu.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl font-semibold text-teal-600 dark:text-teal-400 hover:underline"
+                className="text-2xl font-bold text-teal-600 dark:text-teal-400 hover:underline"
               >
                 {edu.degree}
               </a>
               <p className="text-lg font-medium text-gray-700 dark:text-gray-300 mt-2">
                 {edu.institution}
               </p>
-              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              <p className="text-sm text-gray-500 dark:text-gray-400 mb-4 italic">
                 {edu.period}
               </p>
 
@@ -86,10 +86,18 @@ const Education = () => {
               <ul className="text-gray-600 dark:text-gray-400 list-disc pl-5 space-y-1">
                 <strong>{edu.coreCourses ? "Core Courses:" : "Core Subjects:"}</strong>
                 {(edu.coreCourses || edu.coreSubjects)?.map((course, idx) => (
-                  <li key={idx}>{course}</li>
+                  <li
+                    key={idx}
+                    className="hover:text-teal-500 dark:hover:text-teal-400 transition duration-300"
+                  >
+                    {course}
+                  </li>
                 ))}
               </ul>
             </div>
+
+            {/* Decorative Line */}
+            <div className="absolute top-0 left-0 h-full w-1 bg-gradient-to-b from-teal-400 to-teal-600 dark:from-teal-600 dark:to-teal-400 rounded-lg" />
           </div>
         ))}
       </div>
