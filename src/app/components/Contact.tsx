@@ -54,7 +54,7 @@ const Contact = () => {
       {/* Mail me now button */}
       <div className="mb-12">
         <a
-          href="mailto:awaiskhanniazi963@gmail.com"
+          href="mailto:waseemtasawar96@gmail.com"
           className="inline-flex items-center bg-teal-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-teal-500 transition duration-300"
         >
           <FaEnvelope className="mr-2 text-xl" />
@@ -65,7 +65,7 @@ const Contact = () => {
       {/* Social Links */}
       <div className="flex space-x-6 mb-12">
         <a
-          href="https://pk.linkedin.com/in/askhan963"
+          href="https://www.linkedin.com/in/waseem-tasawar-801b40242/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-3xl text-teal-600 dark:text-teal-400 hover:text-teal-500 transition duration-300"
@@ -73,7 +73,7 @@ const Contact = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://www.facebook.com/awaisknas963/"
+          href="https://www.facebook.com/share/15tweMYUCD/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-3xl text-teal-600 dark:text-teal-400 hover:text-teal-500 transition duration-300"
@@ -81,7 +81,7 @@ const Contact = () => {
           <FaFacebook />
         </a>
         <a
-          href="https://twitter.com/as_khan963"
+          href="https://x.com/WaseemTasawar2?s=08"
           target="_blank"
           rel="noopener noreferrer"
           className="text-3xl text-teal-600 dark:text-teal-400 hover:text-teal-500 transition duration-300"
@@ -89,7 +89,7 @@ const Contact = () => {
           <FaTwitter />
         </a>
         <a
-          href="https://github.com/askhan963"
+          href="https://github.com/waseemtasawar"
           target="_blank"
           rel="noopener noreferrer"
           className="text-3xl text-teal-600 dark:text-teal-400 hover:text-teal-500 transition duration-300"
