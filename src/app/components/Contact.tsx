@@ -19,7 +19,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Perform form submission (using Formspree or any other service)
-    const response = await fetch('https://formspree.io/f/mkgwvrll', {
+    const response = await fetch('https://formspree.io/f/xpwqwqel', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
