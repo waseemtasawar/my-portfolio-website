@@ -75,19 +75,17 @@ const projects: ProjectCategory[] = [
     category: "MERN Stack",
     projects: [
       {
-        title: "BookShelfX",
+        title: "Book Store",
         description:
-          "BookShelfX is a dynamic web application for managing a collection of books. It provides a seamless experience for users to browse, add, and manage books in their library.",
+          "Book Store is a web application where a user can purchsed the books. It provides a seamless experience for users to browse, add, and manage books in their library.",
         techStack: [
           "React",
           "Tailwind CSS",
           "Redux Toolkit",
           "Node.js",
-          "MongoDB",
-          "Firebase",
         ],
-        githubLink: "https://github.com/askhan963/bookShelfX",
-        liveLink: "https://bookshelfx.netlify.app",
+        githubLink: "https://github.com/waseemtasawar/book-store",
+        liveLink: "https://myonlinebookstores.netlify.app/",
         images: [
           "/Projects/bookshelfx/1.png",
           "/Projects/bookshelfx/2.png",
@@ -95,11 +93,6 @@ const projects: ProjectCategory[] = [
           "/Projects/bookshelfx/4.png",
           "/Projects/bookshelfx/5.png",
           "/Projects/bookshelfx/6.png",
-          "/Projects/bookshelfx/7.png",
-          "/Projects/bookshelfx/8.png",
-          "/Projects/bookshelfx/9.png",
-          "/Projects/bookshelfx/10.png",
-          "/Projects/bookshelfx/11.png",
         ],
       },
       {
@@ -118,12 +111,12 @@ const projects: ProjectCategory[] = [
         ],
       },
       {
-        title: "Clean Slate",
+        title: "Food Order App",
         description:
-          "CleanSlate is a free, user-friendly image background remover that delivers high-quality results with just a few clicks.",
-        techStack: ["React", "Tailwind CSS", "Node.js", "Clerk", "MongoDB"],
-        githubLink: "https://github.com/askhan963/CleanSlate",
-        liveLink: "https://cleanslate.netlify.app/",
+          "Food Order App is a free, user-friendly web application where a user can order Fast Food .",
+        techStack: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
+        githubLink: "https://github.com/waseemtasawar/food-order-app",
+        liveLink: "",
         images: [
           "/Projects/cleanslate/1.png",
           "/Projects/cleanslate/2.png",
@@ -134,37 +127,44 @@ const projects: ProjectCategory[] = [
         ],
       },
       {
-        title: "E-Commerce Platform",
+        title: "Zara Constructions",
         description:
-          "A fully functional e-commerce platform built with React.js, Redux, and TailwindCSS for the frontend and Express.js for the backend.",
-        techStack: ["React", "Redux", "Node.js", "MongoDB", "Tailwind CSS"],
-        githubLink: "https://github.com/askhan963/emcomerce-platform",
-        liveLink: "https://www.youtube.com/watch?v=FNIzKc1O4-M",
+          "Zara Buliding Constructions is a web application where a user can view the construction projects. It provides a seamless experience for users to browse, add, and manage construction projects.",
+        techStack: ["HTML", "CSS", "Django", "Tailwind CSS"],
+        githubLink: "https://github.com/waseemtasawar/building-Project",
+        liveLink: "https://zarabuildings.com/",
         images: [
           "/Projects/e-com-p/1.png",
           "/Projects/e-com-p/2.png",
           "/Projects/e-com-p/3.png",
           "/Projects/e-com-p/4.png",
+          "/Projects/e-com-p/5.png",
+          "/Projects/e-com-p/6.png",
+          "/Projects/e-com-p/7.png",
         ],
       },
       {
-        title: "Dream Minder",
+        title: "Angel Studio",
         description:
-          "Dream Minder is a MERN stack-based goal setting and productivity app, allowing users to manage, track, and collaborate on personal and professional goals.",
+          "Angle Studio focuses on delivering exceptional photo booth rental experiences designed to make every event unforgettable. It combines creativity, innovation, and attention to detail to craft moments filled with joy, laughter, and lasting memories. From seamless setup to user-friendly technology, this project ensures that every special occasion is elevated with a touch of magic",
         techStack: [
           "React",
           "Node.js",
           "MongoDB",
           "Tailwind CSS",
-          "TypeScript",
         ],
-        githubLink: "https://github.com/askhan963/DreamMinder",
-        liveLink: "https://dreamminder.netlify.app/",
+        // githubLink: "",
+        liveLink: "https://angel-studio-final.vercel.app/",
         images: [
           "/Projects/dream-minder/1.png",
           "/Projects/dream-minder/2.png",
           "/Projects/dream-minder/3.png",
           "/Projects/dream-minder/4.png",
+          "/Projects/dream-minder/5.png",
+          "/Projects/dream-minder/6.png",
+          "/Projects/dream-minder/7.png",
+          "/Projects/dream-minder/8.png",
+          "/Projects/dream-minder/9.png",
         ],
       },
       {
