@@ -211,6 +211,7 @@ const projects: ProjectCategory[] = [
           "/Projects/my-portfolio/4.png",
           "/Projects/my-portfolio/5.png",
           "/Projects/my-portfolio/6.png",
+          "/Projects/my-portfolio/7.png",
         ],
       },
       {
