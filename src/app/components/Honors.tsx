@@ -10,10 +10,6 @@ const honors = [
     title: "Relational Database",
   },
   {
-    image: "/Awards/googleDSC.png",
-    title: "Project Submission GDSC Solution Challenge 2024",
-  },
-  {
     image: "/Awards/generativeAI.png",
     title: "Generative AI Fundamentals",
   },
