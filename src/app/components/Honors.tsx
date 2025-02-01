@@ -14,10 +14,6 @@ const honors = [
     title: "Project Submission GDSC Solution Challenge 2024",
   },
   {
-    image: "/Awards/googleTop100.png",
-    title: "Global Top 100 Finalist GDSC Solution Challenge 2024",
-  },
-  {
     image: "/Awards/generativeAI.png",
     title: "Generative AI Fundamentals",
   },
