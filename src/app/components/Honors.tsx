@@ -14,10 +14,6 @@ const honors = [
     title: "Generative AI Fundamentals",
   },
   {
-    image: "/Awards/gitGithubParticipation.png",
-    title: "Certificate of Participation in Git & GitHub for Developers",
-  },
-  {
     image: "/Awards/IntroductionToAI.png",
     title: "Certificate of Introduction to AI & ML using Cloud",
   },
