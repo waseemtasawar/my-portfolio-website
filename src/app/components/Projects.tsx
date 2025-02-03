@@ -100,21 +100,21 @@ const projects: ProjectCategory[] = [
           "/Projects/bookshelfx/6.png",
         ],
       },
-      {
-        title: "Netflix Clone",
-        description:
-          "A Netflix clone developed using the MERN stack. It includes features such as user authentication, a main page showcasing available content, and team information.",
-        techStack: ["React", "Redux", "Node.js", "MongoDB", "Firebase"],
-        githubLink: "https://github.com/askhan963/netflix-clone-mern",
-        liveLink: "https://adorable-biscochitos-00323b.netlify.app/",
-        images: [
-          "/Projects/netflix-clone/1.png",
-          "/Projects/netflix-clone/2.png",
-          "/Projects/netflix-clone/3.png",
-          "/Projects/netflix-clone/4.png",
-          "/Projects/netflix-clone/5.png",
-        ],
-      },
+      // {
+      //   title: "Netflix Clone",
+      //   description:
+      //     "A Netflix clone developed using the MERN stack. It includes features such as user authentication, a main page showcasing available content, and team information.",
+      //   techStack: ["React", "Redux", "Node.js", "MongoDB", "Firebase"],
+      //   githubLink: "https://github.com/askhan963/netflix-clone-mern",
+      //   liveLink: "https://adorable-biscochitos-00323b.netlify.app/",
+      //   images: [
+      //     "/Projects/netflix-clone/1.png",
+      //     "/Projects/netflix-clone/2.png",
+      //     "/Projects/netflix-clone/3.png",
+      //     "/Projects/netflix-clone/4.png",
+      //     "/Projects/netflix-clone/5.png",
+      //   ],
+      // },
       {
         title: "Food Order App",
         description:
@@ -172,30 +172,30 @@ const projects: ProjectCategory[] = [
           "/Projects/dream-minder/9.png",
         ],
       },
-      {
-        title: "URL Shortener Service",
-        description:
-          "A full-stack URL shortener service built using Node.js, TypeScript, Express, MongoDB for the backend, and React with Vite for the frontend.",
-        techStack: [
-          "React",
-          "Node.js",
-          "MongoDB",
-          "TypeScript",
-          "Tailwind CSS",
-        ],
-        githubLink: "https://github.com/askhan963/url-shortener-mern",
-        liveLink: "https://url-shortener-askhan.netlify.app/",
-        images: [
-          "/Projects/url-shortner/1.png",
-          "/Projects/url-shortner/2.png",
-          "/Projects/url-shortner/3.png",
-          "/Projects/url-shortner/4.png",
-          "/Projects/url-shortner/5.png",
-          "/Projects/url-shortner/6.png",
-          "/Projects/url-shortner/7.png",
-          "/Projects/url-shortner/8.png",
-        ],
-      },
+      // {
+      //   title: "URL Shortener Service",
+      //   description:
+      //     "A full-stack URL shortener service built using Node.js, TypeScript, Express, MongoDB for the backend, and React with Vite for the frontend.",
+      //   techStack: [
+      //     "React",
+      //     "Node.js",
+      //     "MongoDB",
+      //     "TypeScript",
+      //     "Tailwind CSS",
+      //   ],
+      //   githubLink: "https://github.com/askhan963/url-shortener-mern",
+      //   liveLink: "https://url-shortener-askhan.netlify.app/",
+      //   images: [
+      //     "/Projects/url-shortner/1.png",
+      //     "/Projects/url-shortner/2.png",
+      //     "/Projects/url-shortner/3.png",
+      //     "/Projects/url-shortner/4.png",
+      //     "/Projects/url-shortner/5.png",
+      //     "/Projects/url-shortner/6.png",
+      //     "/Projects/url-shortner/7.png",
+      //     "/Projects/url-shortner/8.png",
+      //   ],
+      // },
       {
         title: "My Personal Portfolio",
         description:
@@ -219,46 +219,31 @@ const projects: ProjectCategory[] = [
           "/Projects/my-portfolio/7.png",
         ],
       },
-      {
-        title: "GPA and CGPA Calculator",
-        description:
-          "A web application that helps students calculate their GPA and CGPA with a responsive and intuitive user interface.",
-        techStack: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
-        githubLink: "https://github.com/askhan963/comsats-cgpa-calculater",
-        liveLink: "https://comsats-cgpa-calculater.vercel.app/",
-        images: [
-          "/Projects/cgpa-cal/1.png",
-          "/Projects/cgpa-cal/2.png",
-          "/Projects/cgpa-cal/3.png",
-          "/Projects/cgpa-cal/4.png",
-          "/Projects/cgpa-cal/5.png",
-        ],
-      },
     ],
   },
-  {
-    category: "React Native",
-    projects: [
-      {
-        title: "Installment Management System (IMS)",
-        description:
-          "A React Native application to assist users in managing their installments, allowing them to schedule, view, and keep track of various payments.",
-        techStack: ["React Native", "React Navigation", "React Native Paper"],
-        githubLink:
-          "https://github.com/askhan963/installments-management-system",
-        liveLink: "https://www.youtube.com/shorts/6tMjFW5JxcA",
-        images: ["/Projects/installment-management-image.png"],
-      },
-      {
-        title: "Intro Social App using React Native",
-        description:
-          "A semester project using React Native, providing basic chat functionality with Firebase, profile customization, and post creation.",
-        techStack: ["React Native", "Firebase", "React Navigation"],
-        githubLink: "https://github.com/askhan963/social-app",
-        images: ["/Projects/social-chat-app-image.png"],
-      },
-    ],
-  },
+  // {
+  //   category: "React Native",
+  //   projects: [
+  //     {
+  //       title: "Installment Management System (IMS)",
+  //       description:
+  //         "A React Native application to assist users in managing their installments, allowing them to schedule, view, and keep track of various payments.",
+  //       techStack: ["React Native", "React Navigation", "React Native Paper"],
+  //       githubLink:
+  //         "https://github.com/askhan963/installments-management-system",
+  //       liveLink: "https://www.youtube.com/shorts/6tMjFW5JxcA",
+  //       images: ["/Projects/installment-management-image.png"],
+  //     },
+  //     {
+  //       title: "Intro Social App using React Native",
+  //       description:
+  //         "A semester project using React Native, providing basic chat functionality with Firebase, profile customization, and post creation.",
+  //       techStack: ["React Native", "Firebase", "React Navigation"],
+  //       githubLink: "https://github.com/askhan963/social-app",
+  //       images: ["/Projects/social-chat-app-image.png"],
+  //     },
+  //   ],
+  // },
 ];
 
 const categories = [
