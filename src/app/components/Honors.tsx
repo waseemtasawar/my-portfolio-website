@@ -6,25 +6,33 @@ import { useRef } from 'react';
 
 const honors = [
   {
-    image: "/Awards/freeCodeCamp.png",
-    title: "Relational Database",
+    image: "/Awards/certificateMEAN.png",
+    title: "MEAN Stack",
   },
   {
-    image: "/Awards/generativeAI.png",
-    title: "Generative AI Fundamentals",
+    image: "/Awards/DataAnalyst.png",
+    title: "Certificate of Data Analyst",
   },
   {
-    image: "/Awards/IntroductionToAI.png",
-    title: "Certificate of Introduction to AI & ML using Cloud",
+    image: "/Awards/blockchanin.png",
+    title: "Certificate of blockChain ",
   },
   {
-    image: "/Awards/IntroToMERN.png",
-    title: "Certificate of Introduction to MERN Stack",
+    image: "/Awards/flutter.png",
+    title: "Certificate of Introduction Flutter.",
   },
   {
-    image: "/Awards/IntroToGenAI.png",
-    title: "Certificate of Intro to Gen AI Studio",
-  }
+    image: "/Awards/githubDev.jpeg",
+    title: "Certificate of Intro to Git and Dev",
+  },
+  {
+    image: "/Awards/github.png",
+    title: "Certificate of Intro to Git and Github",
+  },
+  {
+    image: "/Awards/WebMaster.png",
+    title: "Particapate in Web Developemt",
+  },
 ];
 
 export default function Honors() {
