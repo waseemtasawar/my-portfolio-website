@@ -1,6 +1,6 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
-
+import Image from "next/image";
 export default function Profile() {
   return (
     <section
@@ -9,7 +9,7 @@ export default function Profile() {
     >
       {/* Profile Picture */}
       <div className="relative">
-        <img
+        <Image
           src="/my3.jpg"
           alt="Profile Picture"
           className="rounded-full sm:w-48 sm:h-48 lg:w-64 lg:h-64 border-4 border-gray-300 dark:border-gray-600 shadow-lg transition-transform duration-500 hover:scale-110 hover:shadow-2xl"/>
