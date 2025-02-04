@@ -37,7 +37,7 @@ const honors = [
 
 export default function Honors() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true }); // Trigger animation once when the section comes into view
+  const isInView = useInView(ref, { once: true }); 
 
   return (
     <section id='honors'

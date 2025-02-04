@@ -12,7 +12,7 @@ const MyCVs = () => {
     {
       title: "Web Developer CV",
       description: "This is my CV focused on web development projects.",
-      downloadLink: "/CV/Awais_Khan_Resume.pdf", // Replace with actual file path
+      downloadLink: "/CV/Waseem-Tasawar.pdf", // Replace with actual file path
     },
     // {
     //   title: "Full Stack Developer CV",
