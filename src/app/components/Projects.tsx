@@ -208,7 +208,7 @@ const projects: ProjectCategory[] = [
           "Framer Motion",
         ],
         githubLink: "https://github.com/waseemtasawar/my-portfolio-website",
-        liveLink: "https://awaiskhanniazi.netlify.app/",// change netlify
+        liveLink: "https://waseem-tasawar.netlify.app/",// change netlify
         images: [
           "/Projects/my-portfolio/1.png",
           "/Projects/my-portfolio/2.png",
