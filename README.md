@@ -3,8 +3,8 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, experience, projects, and more. I built it using modern web technologies, with a focus on creating an engaging, aesthetically pleasing, and responsive experience for visitors.
 
-- **Live at:** [awaiskhanniazi.netlify.app](https://awaiskhanniazi.netlify.app/)
-- **GitHub Repository:** [my-portfolio-website](https://github.com/askhan963/my-portfolio-website)
+- **Live at:** [awaiskhanniazi.netlify.app](https://waseem-tasawar.netlify.app/)
+- **GitHub Repository:** [my-portfolio-website](https://github.com/waseemtasawar/my-portfolio-website)
 
 ## 🌟 Overview
 
@@ -113,9 +113,8 @@ _(Replace the above URL with an actual screenshot of your website)_ -->
 
 If you’d like to get in touch, feel free to send a message through the contact form on the website or connect with me on social media:
 
-- [LinkedIn](https://pk.linkedin.com/in/askhan963)
-- [Twitter](https://twitter.com/as_khan963)
-- [GitHub](https://github.com/askhan963)
+- [LinkedIn](www.linkedin.com/in/waseem-tasawar-801b40242)
+- [GitHub](https://github.com/waseemtasawar)
 
 ## 📜 License
 
